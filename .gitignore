@@ -1,0 +1,15 @@
+# Virtual environment
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database
+todo.db
+
+# Flask instance folder
+instance/
+
+# VS Code settings
+.vscode/

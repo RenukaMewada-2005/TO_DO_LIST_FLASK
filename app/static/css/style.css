@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: url("../images/img1.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* header */
+header {
+    background: rgba(174,142,118,0.9);
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #f3e6d8;
+}
+
+/* footer */
+footer {
+    background-color: rgba(90,70,60,0.9);
+    color: #eee;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+/* flash messages */
+
+/* Success */
+.flash.success {
+    color: #2f5233; /* dark green */
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Danger / Error */
+.flash.danger {
+    color: #7a2e2e; /* dark red */
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Info */
+.flash.info {
+    color: brown; /* dark grey-blue */
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* login form */
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #d9cec0;
+    background: #f4ebe3;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #ae8e76;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8f715c;
+}
+
+.task-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.92);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #d9cec0;
+    border-radius: 6px;
+    background: #f4ebe3;
+}
+
+.task-form .btn {
+    padding: 12px 20px;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e5d6c9;
+}
+
+.task-table th {
+    background-color: #f3e6d8;
+}
+
+/* badges */
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge.pending {
+    background-color: #ffc107;
+}
+
+.badge.working {
+    background-color: #17a2b8;
+}
+
+.badge.done{
+    background-color: #28a745;
+}
+
+.btn-small {
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #ae8e76;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: #8f715c;
+}
+
+.btn-clear {
+    background-color: #b55d5d;
+    margin-bottom: 10px;
+}
+
+.btn-clear:hover {
+    background-color: #9d4c4c;
+}
+
+/* register page */
+
+.register-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-text a {
+    color: #8f715c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+.register-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.92);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
