@@ -38,5 +38,3 @@ TO_DO_APP
 ├── run.py
 └── todo.db
 
-Develop- Your Name
-- Friend Name
